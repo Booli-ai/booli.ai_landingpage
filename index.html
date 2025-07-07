@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booli.ai - Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fff;
+            color: #222;
+        }
+        .container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #fff;
+        }
+        .logo {
+            margin-top: 60px;
+        }
+        .logo img {
+            width: 180px;
+            height: auto;
+        }
+        h1 {
+            color: #16c3d1;
+            font-size: 2.5rem;
+            margin: 32px 0 12px 0;
+            letter-spacing: 1px;
+        }
+        p {
+            color: #444;
+            font-size: 1.2rem;
+            max-width: 500px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .cta-button {
+            background: #16c3d1;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 14px 36px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background: #139eaa;
+        }
+        .actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: center;
+            margin-bottom: 32px;
+        }
+        .actions .cta-button {
+            min-width: 180px;
+        }
+        .video-section {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .logo img { width: 120px; }
+            .actions {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .video-section {
+                max-width: 100vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="padding-top: 10px;">
+        <div class="actions" style="margin-top: 0; margin-bottom: 2px;">
+            <a href="#download" class="cta-button">Download App</a>
+            <a href="https://forms.gle/your-google-form-link" class="cta-button" style="background:#fff;color:#16c3d1;border:1px solid #16c3d1;">Got a feedback -Take our Survey</a>
+            <a href="https://github.com/your-repo/issues" class="cta-button" style="background:#fff;color:#16c3d1;border:1px solid #16c3d1;">Raise Issue / Request Feature</a>
+        </div>
+        <div class="logo" style="margin-bottom: 4px; margin-top: 0;">
+            <img src="logo.jpeg" alt="booli.ai logo">
+        </div>
+        <p style="margin-top: 0; margin-bottom: 6px;">Your AI-powered Language Learning App for Indian Languages</p>
+        <div class="video-section" style="margin:6px 0 0 0;width:100%;display:flex;flex-direction:column;align-items:center;">
+            <h2 style="color:#16c3d1;font-size:1.2rem;margin-bottom:4px;margin-top:0;">Watch our Introduction</h2>
+            <div style="position:relative;width:100%;max-width:560px;height:315px;">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/your-video-id" title="YouTube video player" frameborder="0" allowfullscreen style="margin:0;"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
