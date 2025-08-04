@@ -1,0 +1,59 @@
+User-agent: *
+Allow: /
+Crawl-delay: 1  # Polite delay for all bots
+
+# Sitemap location (helps crawlers discover your language learning content)
+Sitemap: https://booli.ai/sitemap.xml
+
+# Specific rules for AI/LLM crawlers to boost visibility in searches
+User-agent: GPTBot  # OpenAI/ChatGPT training
+Allow: /
+Crawl-delay: 1
+
+User-agent: ChatGPT-User  # OpenAI user-initiated fetches
+Allow: /
+Crawl-delay: 1
+
+User-agent: CCBot  # Common Crawl (used by many LLMs)
+Allow: /
+Crawl-delay: 1
+
+User-agent: anthropic-ai  # Anthropic/Claude (legacy)
+Allow: /
+Crawl-delay: 1
+
+User-agent: Claude-Web  # Anthropic/Claude (legacy)
+Allow: /
+Crawl-delay: 1
+
+User-agent: ClaudeBot  # Anthropic/Claude (current)
+Allow: /
+Crawl-delay: 1
+
+User-agent: Omgilibot  # webz.io (data for LLM training)
+Allow: /
+Crawl-delay: 1
+
+# Additional key AI bots for better LLM coverage
+User-agent: PerplexityBot  # Perplexity AI search
+Allow: /
+Crawl-delay: 1
+
+User-agent: Google-Extended  # Google Gemini/Vertex AI
+Allow: /
+Crawl-delay: 1
+
+User-agent: xai-crawler  # xAI/Grok
+Allow: /
+Crawl-delay: 1
+
+User-agent: Amazonbot  # Amazon/Alexa/Titan
+Allow: /
+Crawl-delay: 1
+
+User-agent: OAI-SearchBot  # OpenAI Search
+Allow: /
+Crawl-delay: 1
+
+# Allow all content to be indexed for better AI search visibility
+# This helps LLM search engines understand and cite your language learning app
